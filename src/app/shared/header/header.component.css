@@ -1,0 +1,25 @@
+.toolbar{
+    background-color: #FFDE59;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
+
+.imagem-logo {
+    width: 120px;
+    height: 120px;
+    padding-top: 15%;
+}
+
+.botao-logo{
+    border: none;
+    background-color: transparent;
+    max-width: 100%; 
+    height: auto; 
+}
+
+.botao-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

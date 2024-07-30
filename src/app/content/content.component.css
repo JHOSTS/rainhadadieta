@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+
+body {
+    background-image: url(../../assets/images/fundo-alimentos2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center center center;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center left;
+        background-repeat: no-repeat;
+    }
+}
+
+h1{
+    font-family: 'RoxboroughCF';
+    color: black;
+}
+
+h3{
+    font-family: 'Montserrat-Black';
+    color: black;
+}
+
+.div-botao-fixo  :hover {
+    font-weight:  900;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px #5fe690;
+}
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+}
+
+.icon .fab {
+    padding-top: 9px;
+}
+
+.icon :hover {
+    font-weight: 900;
+}
+
+
+@media screen and (max-width: 768px) {
+    .div-botao-fixo {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    padding: 1%;
+    width: 4%;
+    height: 6%;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    transition: transform 1.0s ease;
+    }
+}
+
+img{
+    padding-top: 9px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    img{
+        padding-top: 9px;
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+
+.container {
+    background-color: #ffde594f;
+    border-radius: 10PX;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 30%;
+    width: 50%;
+    box-shadow: 5px 5px 15px black;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        background-color: #ffde59bd;
+        border-radius: 10PX;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 5%;
+        padding-bottom: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 65%;
+    }
+}
+
+.fw-bold {
+    font-size: 200%;
+}
+
+.imagem-ebook {
+    border: solid 1px black;
+    border-radius: 10px;
+    img{
+        padding: 0;
+        border-radius: 10px;
+    }
+}
+
+.imagem {
+    border-radius: 10px;
+    max-width: 120%; 
+    height: 40%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    img{
+        border: solid 3px #c3872034;
+        padding: 3px;
+        border-radius: 10px;
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
+.div-botao-final {
+    width: 90%;
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .div-botao-final {
+        max-width: 90%;
+        margin-left: 20%;
+    }
+}
+.btn {
+    animation: botton-effect 1s infinite;
+    color: white;
+    padding: 5px;
+    font-family: 'OpenSans-Regular'
+}
+
+@keyframes botton-effect {
+    0% { background-color: #215200; }
+    50% { background-color: #0aa304dc; 
+          box-shadow: 3px 1px 3px black;
+        }
+    100% { background-color: #215200; } 
+}
